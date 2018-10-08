@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 200px;
+    margin-top: 25px;
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    position: relative;
+}
+
+
+table thead tr th, table tbody tr td:first-child{
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+table tr td, table tr th{
+    border: 1px solid black;    
+}
+
+table tr th{
+    width: 30%;
+}
+
+table tr th:first-child{
+    width: 10% !important;
+}
+
+#buttons button{
+    padding: 14px 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: #a3dd82;
+}
+
+#button button:hover{
+    background-color: grey;
+}
+
+
+
+.card{
+    border: 1px solid black;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    position: relative;
+    overflow: auto;
+    text-align: center;
+    padding-top: 5px;
+}
+
+b{
+    font-weight: bold !important;
+}
